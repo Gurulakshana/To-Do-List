@@ -29,5 +29,5 @@ document.querySelector("#signup").addEventListener("submit", function (e) {
         user=JSON.stringify(user)
     }
     localStorage.setItem("user",user)
-    window.location.href = "signin.html";
+    window.location.href = "index.html";
 })
