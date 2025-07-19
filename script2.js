@@ -11,7 +11,7 @@ document.querySelector("#signin").addEventListener("submit", function (e) {
     for(i=0;i<storedUser.length;i++){
         if (inputUsername === storedUser[i].username && inputPassword === storedUser[i].password) {
         localStorage.setItem("n",i)
-        window.location.href = "index.html";
+        window.location.href = "todo.html";
         return;
     }
     }
