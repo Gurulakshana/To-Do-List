@@ -11,6 +11,7 @@ function add()
 function displayData(){
         let users = JSON.parse(localStorage.getItem("user")) //retriving data
         document.getElementById("table").innerHTML=users[n].todo //dispaying
+document.getElementById("dispname").innerHTML=`Hi ${users[n].username} !`
 }
 function save(){
     inp.value="" //to make input field after entering data
