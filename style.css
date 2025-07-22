@@ -7,6 +7,7 @@ body{
 }
 nav{
     margin: 20px 40px;
+max-height:50px;
 position:fixed;
 }
 nav p{
@@ -21,7 +22,7 @@ nav button{
     font-size: 17px;
     border-radius: 5px;
     margin: 3px;
-    margin-left:70%;
+    margin-left:750px;
 
 } 
 nav button a{
