@@ -7,7 +7,6 @@ body{
 }
 nav{
     margin: 20px 40px;
-    position:fixed;
 }
 nav p{
     float:left;
